@@ -1,7 +1,7 @@
 name: Release Builds
 on: push
 env:
-  DUNE_COPASI_VERSION: "releases/2.1"
+  DUNE_COPASI_VERSION: "master"
 concurrency:
   group: release-${{ github.ref }}
   cancel-in-progress: true
